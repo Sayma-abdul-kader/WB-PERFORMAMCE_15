@@ -1,0 +1,88 @@
+i{
+    color: aqua;
+}
+h1,h2{
+    border: 2px ridge blue;
+    display: inline;
+    padding: 10px;
+    height: 20px;
+    background-color: aquamarine;
+}
+a{
+    display: block;
+}
+h3{
+     border: 2px ridge blue;
+    display: inline-block;
+    padding: 10px;
+    height: 40px;
+    background-color: aquamarine;
+}
+.width{
+    width: 500px;
+    border: 2px solid green;
+    margin: auto;
+    position: relative;
+    left: 100ox;
+}
+.max_width{
+    max-width: 500px;
+    border: 2px solid green;
+    margin: auto;
+}
+.tehe{
+    position: fixed;
+    width: 500px;
+    border: 2px solid green;
+    margin: auto;
+}
+.ha{
+     position: absolute;
+    width: 500px;
+    border: 2px solid green;
+}
+.box1{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    border: 2px solid blue;
+    background-color: aqua;
+}
+.sub-box{
+    position: absolute;
+    left: 10px;
+    height: 100px;
+    width: 200px;
+    border: 2px solid blue;
+    background-color: blueviolet;
+}
+.box2{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    border: 2px solid blue;
+    background-color: aqua;
+}
+.sub-box1{
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 200px;
+    border: 2px solid blue;
+    background-color: blueviolet;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.aj{
+    position: sticky;
+    top: 0;
+    border: 4px ridge yellow;
+    background-color: aqua;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    border: 4px ridge yellow;
+    background-color: aqua;
+}
